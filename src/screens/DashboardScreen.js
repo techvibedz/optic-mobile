@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import api from '../api/config';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useThemeContext } from '../context/ThemeContext';
+import Constants from 'expo-constants';
 
 import { useAuth } from '../context/AuthContext';
 
@@ -183,7 +184,7 @@ export default function DashboardScreen() {
 
         <View style={{ marginTop: 30, padding: 10, opacity: 0.5 }}>
             <Text variant="bodySmall" style={{ textAlign: 'center', color: theme.colors.secondary }}>
-                Version: 1.0.4
+                Version: {Constants.expoConfig?.version || '1.1.0'}
             </Text>
         </View>
 
