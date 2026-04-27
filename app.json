@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Optic Frantz Fanon",
+    "slug": "mobile",
+    "version": "1.1.0",
+    "owner": "houdeifa515",
+    "runtimeVersion": "1.1.0",
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/cd550ffb-06e4-45f9-af2e-acbc6980a9eb"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "usesCleartextTraffic": true,
+      "edgeToEdgeEnabled": true,
+      "package": "com.optic.optimalmanager",
+      "versionCode": 6,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.REQUEST_INSTALL_PACKAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd550ffb-06e4-45f9-af2e-acbc6980a9eb"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "latestVersion": "1.1.0",
+  "apkUrl": "https://github.com/techvibedz/optic-mobile/releases/download/v1.1.0/optic-frantz-fanon-1.1.0.apk",
+  "releaseNotes": "v1.1.0 — Added in-app updater (APK self-updater + OTA via Expo Updates)."
+}
